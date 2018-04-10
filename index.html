@@ -5,10 +5,40 @@
     <title>index</title>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         <h1>{{ message }}</h1>
+    </div>
+    <div class="container main">
+        <div class="row home">
+            <div id = "index_left" class="col-md-6 left">
+                <img class="img-responsive img-rabbit" src="assets/images/love.jpg">
+            </div>
+            <div id = "index_right" class="col-md-6 text-center right">
+                <div class="logo">
+                    <img src="assets/images/logo.png">
+                    <!-- <h4>I am rabbit</h4> -->
+                </div>
+                <p class="home-description">
+                    {{ message }}
+                </p>
+                <!--
+                <div class="btn-group-vertical custom_btn animated slideinright">
+                    <div id="about" class="btn btn-rabbit">About</div>
+                    <div id="work" class="btn btn-rabbit">Work</div>
+                    <div id="contact" class="btn btn-rabbit">Contact</div>
+                </div>      
+                <div class="social">
+                    <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </div>
+                -->
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script type="text/javascript">
