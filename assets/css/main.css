@@ -44,7 +44,8 @@ body{
 		}
 
 		.img-rabbit{
-			/*margin: 0 -15px;*/
+			margin: 0 -15px;
+			padding-top: 90px;
 		}
 
 		.btn-group-vertical{
